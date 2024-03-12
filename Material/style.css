@@ -367,6 +367,12 @@ body {
 #portfolio{
     padding: 50px 0;
 }
+
+.sub-tit{
+    padding-left: 800px;
+    font-size: 60px;
+    
+}
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
@@ -487,6 +493,19 @@ body {
     justify-content: space-between;
 }
 
+.project{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+.head{
+    padding-left: 800px;
+    font-size: 60px;
+}
+.head ol li{
+    gap: 4px;
+
+}
 .contact-left,
 .contact-right {
     flex: 1;
